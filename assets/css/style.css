@@ -1,0 +1,24 @@
+:root{--deep:#0B3C49;--lagoon:#1F7A8C;--foam:#F6FAFA;--sun:#F4B942;--ink:#17262B}
+body{font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);background:var(--foam)}
+h1,h2,h3,.navbar-brand{font-family:'DM Serif Display',Georgia,serif;font-weight:400}
+.site-nav{background:var(--deep)}.navbar-brand{font-size:1.4rem}
+.btn-sun{background:var(--sun);color:#2b2100;font-weight:700;border:0}.btn-sun:hover{background:#e6a82d;color:#2b2100}
+.btn-sea{background:var(--lagoon);color:#fff}.btn-sea:hover{background:var(--deep);color:#fff}
+.btn-outline-sea{border:1px solid var(--lagoon);color:var(--lagoon)}.btn-outline-sea:hover{background:var(--lagoon);color:#fff}
+.btn:focus-visible,.form-control:focus,.form-select:focus{outline:3px solid var(--sun);outline-offset:1px;box-shadow:none}
+.hero{min-height:58vh;display:flex;align-items:flex-end;padding:3rem 2rem;border-radius:.5rem;color:#fff;
+ background:linear-gradient(180deg,rgba(11,60,73,.15),rgba(11,60,73,.85)),linear-gradient(120deg,#1F7A8C 0%,#6FC3C9 45%,#F4B942 100%)}
+.hero h1{font-size:clamp(2rem,5vw,3.6rem);max-width:16ch}.hero p{max-width:52ch}
+.feature,.summary{background:#fff;border-left:4px solid var(--lagoon);padding:1rem 1.2rem;border-radius:.25rem;height:100%}
+.summary{position:sticky;top:1rem;height:auto}
+.room-card{border:0;box-shadow:0 1px 3px rgba(11,60,73,.15)}
+.room-img{height:190px;object-fit:cover}
+.room-ph{height:190px;display:flex;align-items:flex-end;padding:1rem;color:#fff;font-family:'DM Serif Display',serif;font-size:1.4rem;border-radius:.375rem .375rem 0 0}
+.ph-Standard{background:linear-gradient(135deg,#1F7A8C,#9AD1D4)}.ph-Deluxe{background:linear-gradient(135deg,#0B3C49,#1F7A8C)}
+.ph-Family{background:linear-gradient(135deg,#3C8D5A,#B7DFA7)}.ph-Suite{background:linear-gradient(135deg,#0B3C49,#F4B942)}
+.price{font-weight:700;font-size:1.15rem;color:var(--deep)}.price small{font-weight:400;color:#5b6b70}
+.fac{background:#E2F0F1;color:var(--deep);font-weight:600}
+.filter-bar{background:#fff;padding:1rem;border-radius:.375rem;margin-left:0;margin-right:0}
+.site-footer{background:var(--deep);color:#cfe3e6;margin-top:3rem}
+@media(max-width:576px){.hero{padding:2rem 1rem}.summary{position:static}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
